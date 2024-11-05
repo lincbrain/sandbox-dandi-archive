@@ -11,6 +11,7 @@ concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
 
+
 jobs:
   reset-release-branch:
     name: Update release branch
